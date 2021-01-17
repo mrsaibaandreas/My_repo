@@ -1,13 +1,17 @@
 
 import './App.css';
-import navBar from "./Nav Bar/navbar";
+import NaviBar from "./Nav Bar/navibar";
+import {render} from "@testing-library/react";
+
 function App() {
-  return (
-  <div>
-    djsadasda
-    <navBar/>
-  </div>
-  );
+
+    return (
+        <div>
+          djsadasda
+          <NaviBar/>
+        </div>
+    );
+
 }
 
 export default App;
