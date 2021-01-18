@@ -1,8 +1,11 @@
 import React from 'react';
-
+import './searchbar.css'
 const SearchBar = (props) =>{
     return(
-        <input placeholder="What you think about?"/>
+        <div>
+        <input className="SearchBar" placeholder="What you think about?"/>
+        <div>Search</div>
+        </div>
     )
 };
 export default SearchBar;

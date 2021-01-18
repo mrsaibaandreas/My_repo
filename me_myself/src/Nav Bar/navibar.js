@@ -1,6 +1,6 @@
 import React from 'react';
 import './navibar.css'
-
+import SearchBar from "./SearchBar/searchbar";
 const NaviBar = () => {
 
     const topics = [
@@ -32,8 +32,9 @@ const NaviBar = () => {
 
 
     return (
-        <div>
+        <div className="all">
             <div className="BigDiv">{navigationTopics}</div>
+            <SearchBar className="SearchBar"/>
         </div>
     )
 

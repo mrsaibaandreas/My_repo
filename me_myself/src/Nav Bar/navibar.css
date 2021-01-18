@@ -1,11 +1,13 @@
 
-
+.all{
+    display: inline-block;
+}
 .BigDiv{
     display: flex;
     margin: 0 0 0 35%;
 
 }
-.BigDiv .CSS{
+.CSS{
     display: inline-block;
     padding: 2%;
     background-color: #f4511e;
@@ -16,7 +18,7 @@
     opacity: 0.6;
     transition: 0.3s;
     margin: 0 0 0 0.2%;
-    
+
 }
 
 .CSS:hover{
