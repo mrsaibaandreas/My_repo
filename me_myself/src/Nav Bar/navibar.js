@@ -29,12 +29,13 @@ const NaviBar = () => {
     let navigationTopics = topics.map((key) => {
         return <div className="CSS" id={key.id}>{key.name}</div>
     });
+    let input_value = '';//empty
 
 
     return (
         <div className="container">
             <div className="item">{navigationTopics}</div>
-            <SearchBar className="SearchBar"/>
+            <SearchBar className="SearchBar" onClick={input_value}/>
         </div>
     )
 

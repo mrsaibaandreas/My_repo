@@ -7,9 +7,9 @@ function App() {
     {
         return (
             <div>
-            <div className="container">
+            <div className="container1">
                 <div className="item">
-               <NaviBar/>
+               <NaviBar />
                </div>
             </div>
             <div>

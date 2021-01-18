@@ -9,15 +9,17 @@
     display: inline-block;
 }
 
-.container{
+.container-search{
     display : flex;
     flex-direction: row;
     align-self: center;
 
 }
 
-.item{
+.item-search{
     display: flex;
-    margin: 0 0 0 35%;
+    margin: 0 0 0 5%;
     align-self: start;
+    background-color: blue;
+
 }
