@@ -1,0 +1,24 @@
+
+
+.BigDiv{
+    display: flex;
+    margin: 0 0 0 35%;
+
+}
+.BigDiv .CSS{
+    display: inline-block;
+    padding: 2%;
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    opacity: 0.6;
+    transition: 0.3s;
+    margin: 0 0 0 0.2%;
+    
+}
+
+.CSS:hover{
+    opacity: 1;
+}
