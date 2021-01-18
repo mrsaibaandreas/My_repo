@@ -8,3 +8,16 @@
 #div{
     display: inline-block;
 }
+
+.container{
+    display : flex;
+    flex-direction: row;
+    align-self: center;
+
+}
+
+.item{
+    display: flex;
+    margin: 0 0 0 35%;
+    align-self: start;
+}

@@ -7,7 +7,17 @@ function App() {
     {
         return (
             <div>
+            <div className="container">
+                <div className="item">
                <NaviBar/>
+               </div>
+            </div>
+            <div>
+                Body
+            </div>
+            <div>
+                Footer
+            </div>
             </div>
         );
     }

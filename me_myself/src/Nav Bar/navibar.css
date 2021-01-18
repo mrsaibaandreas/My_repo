@@ -24,3 +24,15 @@
 .CSS:hover{
     opacity: 1;
 }
+
+.container{
+    display : flex;
+    flex-direction: row;
+    align-self: center;
+
+}
+
+.item{
+    display: flex;
+    margin: 0 0 0 35%;
+}

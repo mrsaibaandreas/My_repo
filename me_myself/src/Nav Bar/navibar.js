@@ -32,8 +32,8 @@ const NaviBar = () => {
 
 
     return (
-        <div className="all">
-            <div className="BigDiv">{navigationTopics}</div>
+        <div className="container">
+            <div className="item">{navigationTopics}</div>
             <SearchBar className="SearchBar"/>
         </div>
     )
